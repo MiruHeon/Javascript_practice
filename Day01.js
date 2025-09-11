@@ -11,25 +11,32 @@
 // 변수 선언 시 주의할 점
 // 변수 이름에는 뛰어쓰기가 있어선 안됀다.
 
-var a = 10
-let b = 20
-const c = 30
+var a = 10;
+let b = 20;
+const c = 30;
 
-console.log(a+b+c)
+console.log(a+b+c);
 
 // 함수 선언 방법
 // function 함수이름(매개변수){함수 내용}
 
 function func(x){
-  return x * 10
+  return x * 10;
 }
 
 // 조건문 선언 방법
 // if(조건식){참 일때 실행될 조건문 내용} , else if , else
 
 if(a > 5){
-  console.log("a가 5보다 크다.")
+  console.log("a가 5보다 크다.");
 }
 else{
-  console.log("a가 5이거나 5보다 작다.")
+  console.log("a가 5이거나 5보다 작다.");
 }
+
+// 반복문 선언 방법
+// for문
+// for(초기화식; 조건식; 증감식){반복 내용}
+//
+// while문
+// while(조건식){반복 내용}
