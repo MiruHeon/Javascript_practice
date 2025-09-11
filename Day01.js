@@ -40,3 +40,12 @@ else{
 //
 // while문
 // while(조건식){반복 내용}
+
+for(var i=0;i<10;i++){
+  console.log("i의 값 :",i);
+}
+
+while(a<100){
+  console.log("a의 값 :", a);
+  a++;
+}
