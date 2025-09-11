@@ -16,3 +16,10 @@ let b = 20
 const c = 30
 
 console.log(a+b+c)
+
+// 함수 선언 방법
+// function 함수이름(매개변수){함수 내용}
+
+function func(x){
+  return x * 10
+}
