@@ -23,3 +23,13 @@ console.log(a+b+c)
 function func(x){
   return x * 10
 }
+
+// 조건문 선언 방법
+// if(조건식){참 일때 실행될 조건문 내용} , else if , else
+
+if(a > 5){
+  console.log("a가 5보다 크다.")
+}
+else{
+  console.log("a가 5이거나 5보다 작다.")
+}
