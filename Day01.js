@@ -103,10 +103,10 @@ console.log("배열 after push/pop:", fruits);
 // 8. 객체 (Object)
 // -----------------------------------
 let person = {
-    name: "홍길동",
+    name: "유솔",
     age: 20,
     greet: function() {
-        console.log("안녕하세요, 저는 " + this.name + "입니다.");
+        console.log("안녕하세요, 저는 " + this.name + "쨩 데스네.");
     }
 };
 
@@ -117,10 +117,10 @@ person.greet();
 // 9. 이벤트/함수 활용 예시
 // -----------------------------------
 function sayHello(name) {
-    console.log(`${name}님, 안녕하세요!`);
+    console.log(`${name}사마, 안녕하세요!`);
 }
 
-sayHello("용헌");
+sayHello("유솔");
 
 // -----------------------------------
 // 10. 요약
